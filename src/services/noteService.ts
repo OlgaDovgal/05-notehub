@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Note } from "../Types/note";
+import type { Note } from "../types/note";
 interface NotesFetchResponse {
   notes: Note[];
   totalPages: number;
